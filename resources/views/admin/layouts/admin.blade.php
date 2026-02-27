@@ -36,7 +36,7 @@
         <nav class="text-white text-base font-semibold">
             <a href="{{ route('admin.index') }}"
                 class="{{ request()->routeIs('admin.index') ? 'active-nav-link' : 'opacity-75 hover:opacity-100' }} flex items-center py-3 pl-6 nav-item">
-                <i class="fas fa-tachometer-alt mr-3"></i> Dashboard
+                <i class="fas fa-tachometer-alt mr-3"></i> Dashboard Aldo
             </a>
             @can('admin-only')
                 <a href="{{ route('admin.category.index') }}"
